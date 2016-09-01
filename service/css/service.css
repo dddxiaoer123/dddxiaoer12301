@@ -1,0 +1,322 @@
+/*服务-s*/
+
+/*服务范畴-s*/
+.service {
+    width: 100%;
+}
+
+.service .tab {
+    /*height: 60px;*/
+    width: 100%;
+    background-color: #cccccc;
+
+}
+
+.service .tab .container li {
+    height: 60px;
+    width: 78px;
+    float: right;
+    list-style: none;
+}
+
+.service .tab .container li a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+}
+
+.service .tab .container li a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: red;
+}
+
+.service .text {
+    width: 100%;
+}
+
+.service .text .container {
+    padding: 40px 0;
+    /*background-color: red;*/
+}
+
+.service .text .container h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 70px;
+    /*margin-top: 20px;*/
+}
+
+.service .text .container .box {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-top: 30px;
+    /*background-color: #cccccc;*/
+    box-sizing: border-box;
+    padding-top: 200px;
+    overflow: hidden;
+    margin: 0 17px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+.service .text .container .bgi1 {
+    width: 156px;
+    height: 156px;
+    background: url(../images/words.png) no-repeat 0 -363px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -78px;
+    z-index: 6;
+    overflow: hidden;
+}
+
+.service .text .container .box h4 {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+
+.service .text .container .box .public {
+    margin-bottom: 8px;
+    text-align: center;
+    display: block;
+    z-index: 10;
+    color: white;
+}
+
+.service .text .container .bgi2 {
+    width: 69px;
+    height: 69px;
+    background: url(../images/words.png) no-repeat -245px -357px;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -34.5px;
+    margin-top: -34.5px;
+}
+
+.service .text .container .bgi3 {
+    width: 69px;
+    height: 69px;
+    background: url(../images/words.png) no-repeat -168px -357px;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: -120px;
+    margin-left: -34.5px;
+    margin-top: -34.5px;
+}
+
+.service .text .container .bgi-public1 {
+    background: url(../images/words.png) no-repeat -416px -291px;
+}
+
+.service .text .container .bgi-public2 {
+    background: url(../images/words.png) no-repeat -337px -291px;
+}
+
+.service .text .container .bgi-public3 {
+    background: url(../images/words.png) no-repeat -419px -362px;
+}
+
+.service .text .container .bgi-public4 {
+    background: url(../images/words.png) no-repeat -331px -362px;
+}
+
+.service .text .container .bgi-public5 {
+    background: url(../images/words.png) no-repeat -244px -439px;
+}
+
+.service .text .container .bgi-public6 {
+    background: url(../images/words.png) no-repeat -165px -439px;
+}
+
+.service .text .container .bgi-public7 {
+    background: url(../images/words.png) no-repeat -427px -439px;
+}
+
+.service .text .container .bgi-public8 {
+    background: url(../images/words.png) no-repeat -340px -439px;
+}
+
+.service .text .container .bgi-public9 {
+    width: 54px;
+    height: 70px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -27px;
+    margin-top: -35px;
+    background: url(../images/words.png) no-repeat -144px -632px;
+}
+
+.service .text .container .bgi-public10 {
+    width: 74px;
+    height: 70px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -37px;
+    margin-top: -35px;
+    background: url(../images/words.png) no-repeat -207px -630px;
+}
+
+.service .text .container .bgi-public11 {
+    width: 68px;
+    height: 70px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -34px;
+    margin-top: -35px;
+    background: url(../images/words.png) no-repeat -288px -630px;
+}
+
+.service .text .container .bgi-public13 {
+    width: 56px;
+    height: 70px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -28px;
+    margin-top: -35px;
+    background: url(../images/words.png) no-repeat -438px -639px;
+}
+
+.service .text .container .bgi-public12 {
+    width: 61px;
+    height: 70px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -31px;
+    margin-top: -35px;
+    background: url(../images/words.png) no-repeat -366px -628px;
+}
+
+.service .text .container .bgi-public14 {
+    width: 61px;
+    height: 70px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin-left: -31px;
+    margin-top: -35px;
+    background: url(../images/words.png) no-repeat -144px -705px;
+}
+
+.service .text .container .rob {
+    width: 158px;
+    height: 230px;
+    padding-top: 130px;
+
+}
+
+.service .text .container .rob .bgi1 {
+    width: 128px;
+    height: 128px;
+    background: url(../images/words.png) no-repeat 0px -624px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -64px;
+    z-index: 6;
+    overflow: hidden;
+
+}
+
+.service .text .container .animat1 {
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    z-index: 8;
+    float: left;
+}
+
+.service .text .container .animat2 {
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    z-index: 8;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.service .text .container .box .bgc {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #2ED0B4;
+    z-index: -10;
+    top: 100%;
+}
+
+.service .text .container .box .bgc-small {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    background: #2ED0B4;
+    z-index: -10;
+    top: 100%;
+}
+
+@media (max-width: 767px) {
+    .service .text .container .box {
+        margin: 30px auto;
+
+    }
+}
+
+/*服务范畴-e*/
+
+/*服务优势-s*/
+.service .container .title{
+    font-size: 24px;
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #cccccc;
+}
+.service .text .container h3.subnav{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color:black;
+    text-align: left;
+}
+.service .text .container span.content{
+    display: block;
+    text-indent: 2em;
+    font-size: 16px;
+}
+.service .text .container img{
+    width: 90%;
+    display: block;
+   margin:30px auto;
+}
+/*服务优势-e*/
+
+
+/*服务-e*/
